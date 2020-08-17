@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color:white;
+    font-family: 'Alata', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 100px;
+    
+}
+
+h2 {
+    text-align:center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.creativity {
+    color: rgb(185, 55, 32);
+}
+
+.commitment {
+    color: rgb(43, 169, 219);
+}
+
+.sense-of-humor {
+    color:rgb(192, 192, 44);
+}
