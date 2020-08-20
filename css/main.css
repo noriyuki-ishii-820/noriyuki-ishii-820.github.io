@@ -7,7 +7,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 100px;
     
 }
@@ -32,7 +32,35 @@ h2 {
 
 p,a  {
     text-align:center;
-    text-decoration: underline;
+    text-decoration: none;
     color:white;
     margin-top: 20px;
+}
+
+button {
+    margin: 0 20px;
+}
+
+.accordion {
+    width: 60%;
+    margin: auto;
+}
+
+.card {
+    line-height:100%;
+}
+
+.card-header {
+    background-color:grey;
+    line-height:100%; 
+}
+
+.btn {
+    color:black;
+}
+
+.card-body {
+    color:black;
+    background-color:lightgrey;
+    line-height:150%;
 }
