@@ -9,122 +9,84 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Noriyuki Ishii - web developer</title>
   </head>
   <body>
-    <h1>Hello! I am Nori!</h1>
-    <h2>
-      I am a full stack developer with
-      <span class="creativity">creativity</span>,
-      <span class="commitment">commitment</span> and
-      <span class="sense-of-humor">sense of humor</span>.
-    </h2>
-
-    <p>
-      <button type="button" class="btn btn-secondary">
-        <a href="https://www.linkedin.com/in/ishiinoriyuki/">Linkedin</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html" id="icon">Nori's Web</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button type="button" class="btn btn-secondary">
-        <a href="https://github.com/noriyuki-ishii-820">GitHub</a>
-      </button>
-    </p>
 
-    <br />
-    <br />
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://github.com/noriyuki-ishii-820"
+              ><i class="fab fa-github fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a
+              class="nav-link"
+              href="https://www.linkedin.com/in/ishiinoriyuki/"
+              ><i class="fab fa-linkedin fa-lg"></i
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://twitter.com/nishiiSydDev"
+              ><i class="fab fa-twitter fa-lg"></i
+            ></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="mailto:nishii.dev.syd@gmail.com"
+              ><i class="far fa-envelope fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <section class="accordion" id="accordionExample">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link btn-block text-left"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-              My Quick Profile
-            </button>
-          </h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 id="name">Hello! I am Noriyuki Ishii.</h1>
+          <h1>I am a front end web developer based in Sydney, Australia.</h1>
+
+          <h4>Interested in working together? Let's have a quick chat!</h4>
+
+          <h5>
+            My speciality includes: HTML, CSS, JavaScript, jQuery, Bootstrap and
+            API integrations.
+          </h5>
+          <h5>I am English/Japanese bilingual.</h5>
         </div>
-
-        <div
-          id="collapseOne"
-          class="collapse show"
-          aria-labelledby="headingOne"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            I am a full stack developer with rich experience in the front-end web development. My specialty includes HTML, CSS, JavaScript,
-            bootstrap, React, Angular and WordPress. Being a business professional before becoming a web developer, I have a strong sales acumen to
-            lead my customer's success.
-          </div>
+        <div class="buttonDiv">
+          <button type="button">Portfolio(preparing)</button>
+          <a href="mailto:nishii.dev.syd@gmail.com"
+            ><button type="button">Email</button></a
+          >
         </div>
       </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link btn-block text-left collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              Where are you based?? 
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseTwo"
-          class="collapse"
-          aria-labelledby="headingTwo"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            I am based in Sydney, Australia. Please be mindful of the time zone! 
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link btn-block text-left collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              How should I contact you? 
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseThree"
-          class="collapse"
-          aria-labelledby="headingThree"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            Please give me a message via Linkedin or GitHub! 
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -141,7 +103,11 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="js/script.js"></script>
 
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
