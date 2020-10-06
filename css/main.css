@@ -59,3 +59,8 @@ button {
   border: 2px #223961 solid;
   margin: 5px;
 }
+
+#resume {
+  color: black;
+  text-decoration: underline;
+}
