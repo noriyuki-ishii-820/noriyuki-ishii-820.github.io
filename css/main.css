@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-.row {
+.topBox {
   margin-top: 20vh;
   color: white;
 }
@@ -57,10 +57,75 @@ button {
   border: none;
   border-radius: 15px;
   border: 2px #223961 solid;
-  margin: 5px;
+  margin: 20px;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 #resume {
-  color: black;
+  color: white;
   text-decoration: underline;
+  font-weight: bold;
+}
+
+#portfolioHeading {
+  color: white;
+  text-decoration: underline;
+  border-top: 1px white dotted;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.portfolioDiv {
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.portfolioTitle {
+  text-decoration: underline;
+  color: white;
+}
+
+.imageDiv {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.portfolioImage {
+  width: auto;
+  height: 80%;
+  margin: auto;
+  vertical-align: middle;
+  border: 1px black solid;
+}
+
+.p-icon {
+  font-size: 30px;
+  color: WHITE;
+}
+
+@media only screen and (max-width: 989px) {
+  .portfolioDiv {
+    padding-bottom: 30px;
+    border-bottom: 1px white dotted;
+  }
+
+  #portfolioHeading {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #weatherImage {
+    width: 90%;
+    height: auto;
+  }
 }
