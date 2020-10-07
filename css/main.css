@@ -78,6 +78,7 @@ a {
   border-top: 1px white dotted;
   margin-top: 100px;
   padding-top: 100px;
+  text-align: center;
 }
 
 .portfolioDiv {
@@ -110,16 +111,39 @@ a {
 .p-icon {
   font-size: 30px;
   color: WHITE;
+  margin: 3px;
+}
+
+.bio {
+  color: white;
+  line-height: 40px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.bio p {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  color: black !important;
+  height: 40px;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerIcon {
+  color: #46546c !important;
+  margin: 5px;
 }
 
 @media only screen and (max-width: 989px) {
   .portfolioDiv {
     padding-bottom: 30px;
     border-bottom: 1px white dotted;
-  }
-
-  #portfolioHeading {
-    text-align: center;
   }
 }
 
