@@ -84,15 +84,15 @@
             >
           </h5>
           <div class="buttonDiv">
-            <button type="button"  href="#portfolioHeading">Portfolio</button>
-            <button type="button"  href=".aboutMe">About Me</button>
+            <a href="#portfolio"><button type="button">Portfolio</button></a>
+            <a href="#aboutMe"><button type="button">About Me</button></a>
         </div>
         </div>
        
       </div>
 
       <div class="col-12">
-        <h4 id="portfolioHeading">My Portfolio</h4>
+        <h4 class="portfolioHeading" id="portfolio">My Portfolio</h4>
       </div>
       <div class="row">
         <div class="col-lg-6 portfolioDiv">
@@ -202,13 +202,13 @@
       </div>
 
       <div class="col-12">
-        <h4 id="portfolioHeading" class="aboutMe">A Little About Me</h4>
+        <h4 class="portfolioHeading" id="aboutMe">A Little About Me</h4>
       </div>
       <div class="row">
       <div class="col-8 bio">
         <p>Thank you for visiting my website!</p>
         <p>
-          I am a front end web developer leveraging sales background to build a more
+          I am a front end web developer leveraging <span id="secret">sales</span> background to build a more
           competitive user experience and product on the web.</p>
         <p>I have newly developed skills in:</p>
         <p>
@@ -236,7 +236,7 @@
         <p>My passion lies in creating applications and web services that are simple and user-friendly.</p>
          
           <p>Outside of coding, you can find me playing baseball, taking care of my garden and playing Pokemon online.</p>
-      
+          <p class="hint">Hint:there is a hidden link on this page that would trigger an alert. Try to find it!</p>
       </div>
     </div>
   </div>

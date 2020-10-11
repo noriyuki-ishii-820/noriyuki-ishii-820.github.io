@@ -28,6 +28,7 @@ h1 {
 
 #name {
   font-weight: bold;
+  text-shadow: 2px 2px black;
 }
 
 h4,
@@ -80,18 +81,20 @@ a {
 }
 
 #resume {
-  color: white;
+  color: #e8f743;
   text-decoration: underline;
   font-weight: bold;
 }
 
-#portfolioHeading {
+.portfolioHeading {
   color: white;
   text-decoration: underline;
   border-top: 1px white dotted;
   margin-top: 100px;
   padding-top: 100px;
   text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 .portfolioDiv {
@@ -168,6 +171,10 @@ footer {
   width: 80%;
   margin: auto;
   margin-bottom: 20px;
+}
+
+.hint {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 989px) {
