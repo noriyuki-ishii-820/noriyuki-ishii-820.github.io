@@ -38,7 +38,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav justify-content-center">
           <li class="nav-item active">
             <a class="nav-link" href="https://github.com/noriyuki-ishii-820"
               ><i class="fab fa-github fa-lg"></i>
@@ -61,6 +61,8 @@
               ><i class="far fa-envelope fa-lg"></i>
             </a>
           </li>
+          
+         
         </ul>
       </div>
     </nav>
@@ -74,10 +76,6 @@
           <h4>Interested in working together? Let's have a quick chat!</h4>
 
           <h5>
-            My speciality includes: HTML, CSS, JavaScript, jQuery, Bootstrap and
-            API integrations.
-          </h5>
-          <h5>
             I am English/Japanese bilingual.You can download my resume from
             <a
               id="resume"
@@ -85,12 +83,12 @@
               >here.</a
             >
           </h5>
+          <div class="buttonDiv">
+            <button type="button"  href="#portfolioHeading">Portfolio</button>
+            <button type="button"  href=".aboutMe">About Me</button>
         </div>
-        <div class="buttonDiv">
-          <a href="mailto:nishii.dev.syd@gmail.com"
-            ><button type="button">Contact Me via Email</button></a
-          >
         </div>
+       
       </div>
 
       <div class="col-12">
@@ -102,9 +100,9 @@
             <img src="img/screen1.png" class="portfolioImage" />
           </div>
           <p class="portfolioTitle">JavaScript Quiz App</p>
-          <p>
-            <a
-              class="portfilioImage"
+          <p  class="projectSummary">This application is a combination of multiple-choice questions and interactive challenges.</p>
+          <p class="githubLinks">
+            <a 
               href="https://github.com/noriyuki-ishii-820/JavaScript-Quiz-App"
               >GitHub Repo</a
             >
@@ -130,7 +128,8 @@
             />
           </div>
           <p class="portfolioTitle">Third Party API: Weather Dashboard</p>
-          <p>
+          <p class="projectSummary">This app lets you build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.</p>
+          <p class="githubLinks">
             <a
               href="https://github.com/noriyuki-ishii-820/ServerSideAPIs-Weather-Dashboard"
               >GitHub Repo</a
@@ -156,7 +155,8 @@
             <img src="img/shot1.png" class="portfolioImage" />
           </div>
           <p class="portfolioTitle">Event Planner</p>
-          <p>
+          <p class="projectSummary">This project entails the usage of 2 APIs which will then assist the user to select the most appropriate event with the user-specified date and location with the weather forecast.</p>
+          <p class="githubLinks">
             <a
               class="portfilioImage"
               href="https://github.com/cherylfowlie/project-1"
@@ -179,7 +179,8 @@
             <img src="img/poke1.png" class="portfolioImage" />
           </div>
           <p class="portfolioTitle">My PokeDex</p>
-          <p>
+          <p  class="projectSummary">This is an application with the PokeDex feature. Fully mobile responsive powered by Bootstrap, this PokeDex will output the Pokemon information by the Pokemon Number the user has provided.</p>
+          <p class="githubLinks">
             <a
               href="https://github.com/noriyuki-ishii-820/personalProject-PokeDex"
               >GitHub Repo</a
@@ -201,7 +202,7 @@
       </div>
 
       <div class="col-12">
-        <h4 id="portfolioHeading">A Little About Me</h4>
+        <h4 id="portfolioHeading" class="aboutMe">A Little About Me</h4>
       </div>
       <div class="row">
       <div class="col-8 bio">
@@ -209,27 +210,36 @@
         <p>
           I am a front end web developer leveraging sales background to build a more
           competitive user experience and product on the web.</p>
-          <p>Recently earned a
-          certificate in full-stack web development from the University of
-          Sydney and another in front end web development from the General
-          Assembly, I have newly developed skills in HTML, CSS, JavaScript,
-          jQuery, APIs and Bootstrap; and I am now learning the back-end languages. </p>
-          <p> Known as a creative and
-          never-give-up mindset when it comes to achieving any goals, my aim is
-          to best engage with the stakeholders and develop what makes all the
-          personnels satisfied.</p>
-          <p>I like to build websites and applications that are simple and user friendly, as seen in my projects above. I also prefer to work in groups to incorporate new skills and perspectives.</p>
-        <p> I apply the aspect of sales experience in my
-          critical thinking, which also allows me to be strategic and
-          market-orientated. My passion lies in the excitement of ‘bringing in
-          something new to this world’ and I am excited to leverage my skills as
-          part of a face-paced, quality-driven team to build better products and
-          experiences on the web.</p>
-          <p>Outside of coding, you can find me playing baseball, taking care of my garden and playing Pokemon online.</p>
+        <p>I have newly developed skills in:</p>
+        <p>
+          <ul class="skillSets">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ES6+</li>
+            <li>node.js</li>
+            <li>jQuery</li>
+            <li>Bootstrap</li>
+            <li>API Integrations</li>
+          </ul>
         </p>
+
+        <p>I am also spending my time to learn:</p>
+        <ul class="skillSets">
+          <li>React</li>
+          <li>Angular</li>
+          <li>WordPress</li>
+          <li>Drupal</li>
+          <li>Amazon Web Services</li>
+        </ul>
+    
+        <p>My passion lies in creating applications and web services that are simple and user-friendly.</p>
+         
+          <p>Outside of coding, you can find me playing baseball, taking care of my garden and playing Pokemon online.</p>
+      
       </div>
     </div>
-    </div>
+  </div>
 
     <footer class="footer">
       <p>
