@@ -1,343 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Noriyuki Ishii - web developer</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html" id="icon">Nori's Web</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<head>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav justify-content-center">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://github.com/noriyuki-ishii-820"
-              ><i class="fab fa-github fa-lg"></i>
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a
-              class="nav-link"
-              href="https://www.linkedin.com/in/ishiinoriyuki/"
-              ><i class="fab fa-linkedin fa-lg"></i
-            ></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="https://twitter.com/nishiiSydDev"
-              ><i class="fab fa-twitter fa-lg"></i
-            ></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="mailto:nishii.dev.syd@gmail.com"
-              ><i class="far fa-envelope fa-lg"></i>
-            </a>
-          </li>
-          
-         
-        </ul>
-      </div>
-    </nav>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <div class="container">
-      <div class="topBox row">
-        <div class="col-12">
-          <h1 id="name">Hello! I am Noriyuki Ishii.</h1>
-          <h1>I am a front end web developer based in Sydney, Australia.</h1>
+  <title>Noriyuki Ishii - Full-Stack Web Developer</title>
 
-          <h4>Interested in working together? Let's have a quick chat!</h4>
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-          <h5>
-            I am English/Japanese bilingual.You can download my resume from
-            <a
-              id="resume"
-              href="https://drive.google.com/file/d/1UoUJodn0zeY1HFH_Vd3hb16dyNscUKHP/view?usp=sharing"
-              >here.</a
-            >
-          </h5>
-          <div class="buttonDiv">
-            <a href="#portfolio"><button type="button">Portfolio</button></a>
-            <a href="#aboutMe"><button type="button">About Me</button></a>
-        </div>
-        </div>
-       
-      </div>
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-      <div class="col-12">
-        <h4 class="portfolioHeading" id="portfolio">My Portfolio</h4>
-      </div>
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">I am Noriyuki.</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#skills">Skills</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">Hello.</h1>
+      <h1 class="mb-1">I am Noriyuki Ishii.</h1>
+      <h3 class="mb-5">
+        <em>a full-stack developer with international experience.</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- About -->
+  <section class="content-section bg-light" id="about">
+    <div class="container text-center">
       <div class="row">
-        <div class="col-lg-6 portfolioDiv">
-          <div class="imageDiv">
-            <img src="img/screen1.png" class="portfolioImage" />
-          </div>
-          <p class="portfolioTitle">JavaScript Quiz App</p>
-          <p  class="projectSummary">This application is a combination of multiple-choice questions and interactive challenges.</p>
-          <p class="githubLinks">
-            <a 
-              href="https://github.com/noriyuki-ishii-820/JavaScript-Quiz-App"
-              >GitHub Repo</a
-            >
-            /
-            <a href="https://noriyuki-ishii-820.github.io/JavaScript-Quiz-App/"
-              >Deployment</a
-            >
-          </p>
-          <p>
-            <i class="fab fa-html5 p-icon"></i>
-            <i class="fab fa-css3-alt p-icon"></i>
-            <i class="fab fa-js p-icon"></i>
-            <i class="fab fa-bootstrap p-icon"></i>
-          </p>
+        <div class="col-lg-10 mx-auto">
+          <h2>Thank you for visiting my website.</h2>
+          <p class="biography lead mb-5"> I am a full-stack web developer leveraging proven sales background to build a creative and competitive user experience and product on the web.  
+            Currently going through a certificate in full-stack web development from the University of Sydney and have earned another in front end web development from the General Assembly. 
+            Strengths in teamwork and building projects from ideation to execution. Bilingual in English and Japanese.</p>
         </div>
-
-        <div class="col-lg-6 portfolioDiv">
-          <div class="imageDiv">
-            <img
-              src="img/weather1.png"
-              class="portfolioImage"
-              id="weatherImage"
-            />
-          </div>
-          <p class="portfolioTitle">Third Party API: Weather Dashboard</p>
-          <p class="projectSummary">This app lets you build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.</p>
-          <p class="githubLinks">
-            <a
-              href="https://github.com/noriyuki-ishii-820/ServerSideAPIs-Weather-Dashboard"
-              >GitHub Repo</a
-            >
-            /
-            <a
-              href="https://noriyuki-ishii-820.github.io/ServerSideAPIs-Weather-Dashboard/"
-              >Deployment</a
-            >
-          </p>
-          <p>
-            <i class="fab fa-html5 p-icon"></i>
-            <i class="fab fa-css3-alt p-icon"></i>
-            <i class="fab fa-js p-icon"></i>
-            <i class="fab fa-bootstrap p-icon"></i>
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6 portfolioDiv">
-          <div class="imageDiv">
-            <img src="img/shot1.png" class="portfolioImage" />
-          </div>
-          <p class="portfolioTitle">Event Planner</p>
-          <p class="projectSummary">This project entails the usage of 2 APIs which will then assist the user to select the most appropriate event with the user-specified date and location with the weather forecast.</p>
-          <p class="githubLinks">
-            <a
-              class="portfilioImage"
-              href="https://github.com/cherylfowlie/project-1"
-              >GitHub Repo</a
-            >
-            /
-            <a href="https://cherylfowlie.github.io/project-1/">Deployment</a>
-          </p>
-          <p>
-            <i class="fab fa-html5 p-icon"></i>
-            <i class="fab fa-css3-alt p-icon"></i>
-            <i class="fab fa-js p-icon"></i>
-            <i class="fab fa-bootstrap p-icon"></i>
-            <i class="fas fa-users p-icon"></i>
-          </p>
-        </div>
-
-        <div class="col-lg-6 portfolioDiv">
-          <div class="imageDiv">
-            <img src="img/poke1.png" class="portfolioImage" />
-          </div>
-          <p class="portfolioTitle">My PokeDex</p>
-          <p  class="projectSummary">This is an application with the PokeDex feature. Fully mobile responsive powered by Bootstrap, this PokeDex will output the Pokemon information by the Pokemon Number the user has provided.</p>
-          <p class="githubLinks">
-            <a
-              href="https://github.com/noriyuki-ishii-820/personalProject-PokeDex"
-              >GitHub Repo</a
-            >
-            /
-            <a
-              href="https://noriyuki-ishii-820.github.io/personalProject-PokeDex/"
-              >Deployment</a
-            >
-          </p>
-          <p>
-            <i class="fab fa-html5 p-icon"></i>
-            <i class="fab fa-css3-alt p-icon"></i>
-            <i class="fab fa-js p-icon"></i>
-            <i class="fab fa-bootstrap p-icon"></i>
-            <i class="fas fa-dot-circle p-icon"></i>
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6 portfolioDiv">
-          <div class="imageDiv">
-            <img src="img/team1.png" class="portfolioImage" />
-          </div>
-          <p class="portfolioTitle">Team Profile Generator</p>
-          <p class="projectSummary">This is a command-line application that dynamically generates an HTML file with the information of your engineering team members.</p>
-          <p class="githubLinks">
-            <a
-              class="portfilioImage"
-              href="https://github.com/noriyuki-ishii-820/eatDaBurger"
-              >GitHub Repo</a
-            >
-           
-          <p>
-            <i class="fab fa-html5 p-icon"></i>
-            <i class="fab fa-css3-alt p-icon"></i>
-            <i class="fab fa-js p-icon"></i>
-            <i class="fab fa-node-js p-icon"></i>
-            <i class="fab fa-npm p-icon"></i>
-      
-          </p>
-        </div>
-
-        <div class="col-lg-6 portfolioDiv">
-          <div class="imageDiv">
-            <img src="img/burger1.png" class="portfolioImage" />
-          </div>
-          <p class="portfolioTitle">Eat-Da-Burger</p>
-          <p class="projectSummary">This is a MVC-model burger logger that generates an HTML file utilizing the power of MySQL, Node, Express, Handlebars and a homemade ORM. </p>
-          <p class="githubLinks">
-            <a
-              class="portfilioImage"
-              href=""
-              >GitHub Repo</a
-            >
-            /
-            <a href="https://pacific-castle-30838.herokuapp.com/">Deployment</a>
-          </p>
-
-          
-          </p>
-          <p>
-            <i class="fab fa-html5 p-icon"></i>
-            <i class="fab fa-css3-alt p-icon"></i>
-            <i class="fab fa-js p-icon"></i>
-            <i class="fab fa-node-js p-icon"></i>
-            <i class="fab fa-npm p-icon"></i>
-            <i class="fas fa-database p-icon"></i>
-          </p>
-        </div>
-      </div>
-
-
-      <div class="col-12">
-        <h4 class="portfolioHeading" id="aboutMe">A Little About Me</h4>
-      </div>
-      <div class="row">
-      <div class="col-8 bio">
-        <p>Thank you for visiting my website!</p>
-        <p>
-          I am a front end web developer leveraging <span id="secret">sales</span> background to build a more
-          competitive user experience and product on the web.</p>
-        <p>I have newly developed skills in:</p>
-        <p>
-          <ul class="skillSets">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>ES6+</li>
-            <li>node.js</li>
-            <li>jQuery</li>
-            <li>Handlebars.js</li>
-            <li>express</li>
-            <li>Bootstrap</li>
-            <li>Bulma.io</li>
-            <li>MySQL</li>
-            <li>API Integrations</li>
-          </ul>
-        </p>
-
-        <p>I am also spending my time to learn:</p>
-        <ul class="skillSets">
-          <li>React</li>
-          <li>Angular</li>
-          <li>WordPress</li>
-          <li>Drupal</li>
-          <li>Amazon Web Services</li>
-        </ul>
-    
-        <p>My passion lies in creating applications and web services that are simple and user-friendly.</p>
-         
-          <p>Outside of coding, you can find me playing baseball, taking care of my garden and playing Pokemon online.</p>
-          <p class="hint">Hint:there is a hidden link on this page that would trigger an alert. Try to find it!</p>
       </div>
     </div>
-  </div>
+  </section>
 
-    <footer class="footer">
-      <p>
-        <a href="https://github.com/noriyuki-ishii-820"
-          ><i class="fab fa-github fa-lg footerIcon"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/ishiinoriyuki/"
-          ><i class="fab fa-linkedin fa-lg footerIcon"></i
-        ></a>
+  <!-- Services -->
+  <section class="content-section bg-primary text-white text-center" id="skills">
+    <div class="container">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Skills</h3>
+        <h2 class="mb-5">What I Offer</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fas fa-laptop"></i>
+          </span>
+          <h4>
+            <strong>Front-End</strong>
+          </h4>
+          <p class="text-faded mb-0">Provides outstanding user experience.</p>
+        </div>
 
-        <a href="https://twitter.com/nishiiSydDev"
-          ><i class="fab fa-twitter fa-lg footerIcon"></i
-        ></a>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fas fa-network-wired"></i>
+          </span>
+          <h4>
+            <strong>Back-End</strong>
+          </h4>
+          <p class="text-faded mb-0">Structures strong database and integrations.</p>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fas fa-chess"></i>
+          </span>
+          <h4>
+            <strong>Strategy-Building</strong>
+          </h4>
+          <p class="text-faded mb-0">Enhances the business requirements.</p>
+        </div>
 
-        <a href="mailto:nishii.dev.syd@gmail.com"
-          ><i class="far fa-envelope fa-lg footerIcon"></i>
-        </a>
-      </p>
-    </footer>
+        <div class="col-lg-3 col-md-6">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="fab fa-uncharted"></i>
+          </span>
+          <h4>
+            <strong>New Perspectives</strong>
+          </h4>
+          <p class="text-faded mb-0">Brings in new ideas for your web experiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Callout -->
+  <section class="callout">
+    <div class="container text-center">
+      <h2 class="mx-auto mb-5">Interested in working together? Let's have a quick chat!</h2>
+      <a class="btn btn-primary btn-xl" href="#">Download my Resume</a>
+      <a class="btn btn-primary btn-xl btn-dark" href="mailto:nishii.dev.syd@gmail.com">Email Me</a>
+    </div>
+  </section>
 
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
-    ></script>
-    <script src="js/script.js"></script>
-  </body>
+  <!-- Portfolio -->
+  <section class="content-section" id="portfolio">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">Recent Projects</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Eat-Da-Burgers!</div>
+                <p class="mb-0">This is a MVC-model burger logger that generates an HTML file utilizing the power of MySQL, Node, Express, Handlebars and a homemade ORM.</p>
+                <a href="https://github.com/noriyuki-ishii-820/eatDaBurger" class="btn btn-xl btn-light mr-4">View GitHub</a>
+                <a href="https://pacific-castle-30838.herokuapp.com/" class="btn btn-xl btn-dark">Open App</a>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/scrn/burger1.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">PokeDex</div>
+                <p class="mb-0">Fully mobile responsive powered by Bootstrap, this PokeDex will output the Pokemon information by the Pokemon Number the user has provided.</p>
+                <a href="https://github.com/noriyuki-ishii-820/personalProject-PokeDex" class="btn btn-xl btn-light mr-4">View GitHub</a>
+                <a href="https://noriyuki-ishii-820.github.io/personalProject-PokeDex/" class="btn btn-xl btn-dark">Open App</a>
+
+              </div>
+            </div>
+            <img class="img-fluid" src="img/scrn/poke1.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Weather Dashboard</div>
+                <p class="mb-0">a weather dashboard that runs on the browser and features dynamically updated HTML and CSS.</p>
+                <a href="https://github.com/noriyuki-ishii-820/ServerSideAPIs-Weather-Dashboard" class="btn btn-xl btn-light mr-4">View GitHub</a>
+                <a href="https://noriyuki-ishii-820.github.io/ServerSideAPIs-Weather-Dashboard/" class="btn btn-xl btn-dark">Open App</a>
+
+              </div>
+            </div>
+            <img class="img-fluid" src="img/scrn/weather1.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Event Planner</div>
+                <p class="mb-0">the usage of 2 APIs assists the user to select the most appropriate event with the user-specified date and location with the weather forecast.</p>
+                <a href="https://github.com/cherylfowlie/project-1" class="btn btn-xl btn-light mr-4">View GitHub</a>
+                <a href="https://cherylfowlie.github.io/project-1/" class="btn btn-xl btn-dark">Open App</a>
+
+              </div>
+            </div>
+            <img class="img-fluid" src="img/scrn/shot1.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Team Profile Generator</div>
+                <p class="mb-0">a command-line application that dynamically generates an HTML file with the information of your engineering team members.</p>
+                <a href="https://github.com/noriyuki-ishii-820/eatDaBurger" class="btn btn-xl btn-light mr-4">View GitHub</a>
+
+              </div>
+            </div>
+            <img class="img-fluid" src="img/scrn/team1.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Vaccination Tracker</div>
+                <p class="mb-0">Express/NodeJs app that records and offers vaccination information</p>
+                <a href="https://github.com/ManNeu/Vaccination-Tracker" class="btn btn-xl btn-light mr-4">View GitHub</a>
+                <a href="https://project02-003.herokuapp.com/" class="btn btn-xl btn-dark">Open App</a>
+
+              </div>
+            </div>
+            <img class="img-fluid" src="img/scrn/vaccine1.png" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="mailto:nishii.dev.syd@gmail.com">
+            <i class="far fa-envelope"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/nishiiSydDev">
+            <i class="icon-social-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white" href="https://github.com/noriyuki-ishii-820">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="copyright text-muted small mb-0">Copyright &copy; Noriyuki Ishii 2020</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
 </html>
