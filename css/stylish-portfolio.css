@@ -27,7 +27,7 @@ body {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("../img/bg-masthead.jpg");
+    url("../img/abstract1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,6 +35,10 @@ body {
 
 .biography {
   margin-top:20px;
+}
+
+.skillList {
+  list-style-type:none;
 }
 
 .btn-xl {
@@ -266,7 +270,7 @@ footer.footer {
   background-color: #1d809f;
 }
 
-footer.footer .social-link {
+.icons .list-inline .list-inline-item .social-link, footer.footer .social-link {
   display: block;
   height: 4rem;
   width: 4rem;
@@ -290,6 +294,7 @@ a:hover,
 a:focus,
 a:active {
   color: #155d74;
+  text-decoration:none;
 }
 
 .btn-primary {
