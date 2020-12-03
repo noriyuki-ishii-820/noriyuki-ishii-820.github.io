@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio v5.0.9 (https://startbootstrap.com/theme/stylish-portfolio)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
-
 body,
 html {
   width: 100%;
@@ -75,6 +69,12 @@ h6 {
 /* Map */
 .map {
   height: 30rem;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media (min-width: 992px) {
@@ -218,7 +218,6 @@ h6 {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -436,8 +435,9 @@ a:active {
   }
 
   .img-fluid {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
   }
 }
+
