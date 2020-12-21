@@ -35,6 +35,26 @@ body {
   list-style-type:none;
 }
 
+.p-container p button {
+  border:none;
+  background:none;
+}
+
+.p-container p button:hover {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  font-style:italic;
+  border-radius:5px;
+  padding:0 20px;
+}
+
+.p-container p button:focus{
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  font-style:italic;
+  border-radius:5px;
+  padding:0 20px;
+  outline:none;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
