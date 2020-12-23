@@ -31,8 +31,21 @@ body {
   margin-top:20px;
 }
 
-.skillList {
-  list-style-type:none;
+.skillLogo i{
+  font-size:70px; 
+  margin:20px 10px;
+}
+
+.fa-react:hover {
+  color:skyblue;
+}
+
+.fa-js-square:hover {
+  color:rgb(179, 179, 31);
+}
+
+.fa-node:hover {
+  color:green;
 }
 
 .p-container p button {
