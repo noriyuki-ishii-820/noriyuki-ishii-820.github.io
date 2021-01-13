@@ -3,7 +3,7 @@
   "use strict"; // Start of use strict
 
   // Closes the sidebar menu
-  $(".menu-toggle").click(function(e) {
+  $(".menu-toggle").on("click", function(e) {
     e.preventDefault();
     $("#sidebar-wrapper").toggleClass("active");
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
@@ -11,7 +11,7 @@
   });
 
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').on("click", function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -25,7 +25,7 @@
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('#sidebar-wrapper .js-scroll-trigger').click(function() {
+  $('#sidebar-wrapper .js-scroll-trigger').on("click", function() {
     $("#sidebar-wrapper").removeClass("active");
     $(".menu-toggle").removeClass("active");
     $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
